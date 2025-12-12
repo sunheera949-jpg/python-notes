@@ -1,0 +1,9 @@
+username=input ("enter username")
+if username=="admin":
+  password=input("enter password:")
+  if password=='1234':
+    print("valid user")
+  else:
+    print("invalid password")
+else:
+  print("invalid username")
